@@ -3,6 +3,7 @@ import { Button } from "./components/Button/Button";
 import Header from "./components/Header/Header";
 import imgMain from "./assets/images/imgMain.png";
 import {FaPlay} from "react-icons/fa"
+import Banner from "./components/Banner";
 
 const App = ()=>{
   return(
@@ -27,6 +28,7 @@ const App = ()=>{
           <img src={imgMain} alt="imagem principal" />
         </Figure>
       </Main>
+      <Banner/>
     </Body>
   )
 }
