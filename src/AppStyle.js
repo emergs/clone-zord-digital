@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Body = styled.div`
   width:auto;
-  padding: 20px 100px;
+  padding: 20px 0px;
 `
 
 export const Main = styled.div`
