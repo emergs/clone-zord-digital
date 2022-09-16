@@ -1,0 +1,20 @@
+import { ContentStyle, DivParagraph, DivTitle } from "./style";
+
+const Content = ()=>{
+  return(
+    <ContentStyle>
+      <div>
+        <DivTitle>
+          <span>what we do</span>
+          <h2>we'r the engineer of you website</h2>
+        </DivTitle>
+        <DivParagraph>
+          <p>it is time for a change. Our design team will help you plan and implement a full system redesign for better usability and scalability</p>
+        </DivParagraph>
+      </div>
+
+    </ContentStyle>
+  )
+}
+
+export default Content;

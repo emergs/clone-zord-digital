@@ -1,0 +1,20 @@
+const infoCard = [
+  {
+    img:'',
+    title:'',
+    content:'',
+    link:'',
+  },
+  {
+    img:'',
+    title:'',
+    content:'',
+    link:'',
+  },
+  {
+    img:'',
+    title:'',
+    content:'',
+    link:'',
+  }
+]
