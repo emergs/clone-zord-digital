@@ -1,9 +1,10 @@
 import { Body, Figure, Main, Section } from "./AppStyle";
-import { Button } from "./components/Button/Button";
-import Header from "./components/Header/Header";
+import { Button } from "./components/Button";
+import Header from "./components/Header";
 import imgMain from "./assets/images/imgMain.png";
 import {FaPlay} from "react-icons/fa"
 import Banner from "./components/Banner";
+import Content from "./components/Content";
 
 const App = ()=>{
   return(
@@ -29,6 +30,7 @@ const App = ()=>{
         </Figure>
       </Main>
       <Banner/>
+      <Content/>
     </Body>
   )
 }

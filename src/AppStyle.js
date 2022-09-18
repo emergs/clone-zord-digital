@@ -6,9 +6,9 @@ export const Body = styled.div`
 `
 
 export const Main = styled.div`
-  width: 100%;
+  /* width: 100%; */
   height: 400px;
-  padding: 20px 20px;
+  padding: 20px 150px;
   margin-top: 80px;
 
   display: flex;
@@ -23,7 +23,7 @@ export const Section = styled.div`
   gap: 10%;
 
   .content{
-    font-size:2rem;
+    font-size:1.75rem;
     letter-spacing: 0.25rem;
   }
 

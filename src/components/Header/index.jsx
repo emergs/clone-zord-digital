@@ -1,6 +1,6 @@
 import { DivHeader, DivLogo, NavBar } from "./header";
 import imgLogo from "../../assets/images/logo.svg";
-import { Button } from "../Button/Button";
+import { Button } from "../Button";
 
 const Header = ()=>{
   return(

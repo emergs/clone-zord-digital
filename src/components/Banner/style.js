@@ -1,13 +1,13 @@
 import styled from "styled-components"
 
 export const List = styled.ul`
-  width: 100%;
+  /* width: 100%; */
   height: 150px;
+  padding: 0 150px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap:50px;
 
   background-color: #F2EEFE;
 

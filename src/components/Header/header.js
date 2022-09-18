@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const DivHeader = styled.header`
-  width: 100%;
   height: 60px;
+  padding: 0 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
